@@ -1,0 +1,36 @@
+.dashboard_container{
+    margin:10px;
+    
+    width: 140vh; height:100vh;
+    border:10px rgba(0, 0, 0, 0.459) solid;
+    color: orange;
+    position: relative;
+    left:50%;
+    transform: translateX(-50%);
+
+}
+.post_container{
+    position:relative;
+    left:50%;
+    transform: translate(-50%,10%);
+    width:70%; height:80%;
+    border:2px solid gray;
+}
+.post_container .random_post{
+    position:relative;
+    display: block;
+    /* left:50%;
+    transform: translate(-50%,10%); */
+    left:5%;top:5%;
+    width:90%; height:80%;
+    border: 2px solid black;
+    background-image: url('../pics/IMG-20220227-WA0021.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.post_container .like-btn{
+    transform: translate(10%,60%);
+}
+.post_container .like-btn .btn2{
+    
+}
